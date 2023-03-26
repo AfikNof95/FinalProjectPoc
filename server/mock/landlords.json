@@ -1,0 +1,13 @@
+{
+  "landlords": [
+    { "name": "Avi", "answers": [0, 0, 0, 1, 1], "priority": [5, 1, 1, 5, 1] },
+    {
+      "name": "Yehuda",
+      "answers": [1, 1, 0, 0, 0],
+      "priority": [5, 1, 1, 5, 1]
+    },
+    { "name": "Afik", "answers": [0, 0, 0, 1, 1], "priority": [5, 1, 1, 5, 1] },
+    { "name": "Omer", "answers": [0, 0, 0, 1, 1], "priority": [5, 1, 1, 5, 1] },
+    { "name": "Itay", "answers": [0, 0, 0, 1, 1], "priority": [5, 1, 1, 5, 1] }
+  ]
+}
