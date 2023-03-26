@@ -3,7 +3,7 @@
     {
       "name": "Avi",
       "address": "Tel Aviv, George Wise 2",
-      "rooms": "3",
+      "rooms": 3,
       "floor": 2,
       "parkings": 0,
       "price": 5000,

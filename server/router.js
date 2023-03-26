@@ -5,8 +5,16 @@ router.post("/match", (req, res, next) => {
   const { answers, priority } = req.body;
   const matchPercentage = [];
   for (let landlord of landlords.landlords) {
+    const landlordData = {
+      name: landlord.name,
+      address: landlord.address,
+      floor: landlord.floor,
+      price: landlord.price,
+      parkings: landlord.parkings,
+      rooms: landlord.rooms,
+    };
     matchPercentage.push({
-      landlord: landlord.name,
+      ...{landlordData},
       match: match({ answers, priority }, landlord),
     });
   }
