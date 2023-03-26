@@ -14,7 +14,7 @@ router.post("/match", (req, res, next) => {
       rooms: landlord.rooms,
     };
     matchPercentage.push({
-      ...{landlordData},
+      ...landlordData,
       match: match({ answers, priority }, landlord),
     });
   }
