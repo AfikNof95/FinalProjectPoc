@@ -1,6 +1,15 @@
 {
   "landlords": [
-    { "name": "Avi", "answers": [0, 0, 0, 1, 1], "priority": [5, 1, 1, 5, 1] },
+    {
+      "name": "Avi",
+      "address": "Tel Aviv, George Wise 2",
+      "rooms": "3",
+      "floor": 2,
+      "parkings": 0,
+      "price": 5000,
+      "answers": [0, 0, 0, 1, 1],
+      "priority": [5, 1, 1, 5, 1]
+    },
     {
       "name": "Yehuda",
       "answers": [1, 1, 0, 0, 0],
